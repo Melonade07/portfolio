@@ -131,7 +131,7 @@ h3 { font-size: 1.15rem; }
 .socials { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2.5rem; }
 .social {
   display: grid; place-items: center;
-  width: 4rem; height: 3.5rem;
+  width: 3.5rem; height: 3.5rem;
   font-size: 1.5rem; text-decoration: none; color: var(--text);
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
   transition: transform 0.2s, background 0.2s, color 0.2s, border-color 0.2s;
@@ -141,7 +141,7 @@ h3 { font-size: 1.15rem; }
   transform: translateY(-4px);
 }
 
-.contact-info { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 1rem; }
+.contact-info { list-style: none; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(18rem, 100%), 1fr)); gap: 1rem; }
 .contact-info li { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.3rem; color: var(--muted); }
 .contact-info strong { display: block; font-family: "Bricolage Grotesque", "Segoe UI", sans-serif; color: var(--text); margin-bottom: 0.2rem; }
 
