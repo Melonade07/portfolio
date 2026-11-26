@@ -131,7 +131,7 @@ h3 { font-size: 1.15rem; }
 .socials { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 2.5rem; }
 .social {
   display: grid; place-items: center;
-  width: 3.5rem; height: 3.5rem;
+  width: 4rem; height: 3.5rem;
   font-size: 1.5rem; text-decoration: none; color: var(--text);
   background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
   transition: transform 0.2s, background 0.2s, color 0.2s, border-color 0.2s;
