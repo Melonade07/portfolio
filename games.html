@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Games | Lhexter Villamor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Lhexter Villamor</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="index.html#about">About</a>
+      <a href="index.html#education">Education</a>
+      <a href="index.html#skills">Skills</a>
+      <a href="index.html#hobbies">Hobbies</a>
+      <a href="index.html#contact">Contact</a>
+      <button class="theme-btn" id="musicBtn" aria-label="Toggle background music" aria-pressed="false">Music: Off</button>
+      <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark theme">Dark mode</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="games-page">
+      <a href="index.html#hobbies" class="back-link">&larr; Back to portfolio</a>
+      <h2>Games I&rsquo;ve played</h2>
+      <p class="games-lead">Hover over a game to see its name. Click it to open its page.</p>
+
+      <!-- The game tiles are generated from the list at the top of games.js -->
+      <div class="games" id="games"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Lhexter Villamor</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="games.js"></script>
+</body>
+</html>

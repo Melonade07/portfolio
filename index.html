@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lhexter Villamor | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="#home" class="logo">Lhexter Villamor</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    <nav id="nav" class="nav">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#hobbies">Hobbies</a>
+      <a href="#contact">Contact</a>
+      <button class="theme-btn" id="musicBtn" aria-label="Toggle background music" aria-pressed="false">Music: Off</button>
+      <button class="theme-btn" id="themeBtn" aria-label="Switch light or dark theme">Dark mode</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <p class="hero-intro">Hi, I'm</p>
+      <h1>Villamor, Lhexter</h1>
+      <!-- JS rotates through the roles listed in data-roles (separate with commas) -->
+      <p class="hero-role">I'm a CompScie Student</p>
+      <a href="#contact" class="btn">Get in touch</a>
+      <a href="#about" class="btn btn-ghost">Learn more</a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about">
+      <h2>About me</h2>
+      <div class="about-grid">
+        <!-- Replace photo.jpg with your own image file -->
+        <img src="https://scontent.fmnl8-7.fna.fbcdn.net/v/t39.30808-6/489885764_1388331545683219_7956783754214339763_n.jpg?stp=dst-jpg_tt6&cstp=mx1367x1377&ctp=s1367x1377&_nc_cat=107&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEye_t2yLrNmgMOEVd1z7m683tuii48pejze26KLjyl6I720FVpRMpUeH2VfOFmDlhe1-qFslWWiY-9clE2F6hF&_nc_ohc=bJgOPwmj7xAQ7kNvwEybKxP&_nc_oc=Adr4PUkY5ASlBee-wPfkB5N3N1tK9tLZABpS_Iuzpw_tqZmMudySJADQ3-DBNaqR4s15-N_9HBxyVvhucGnsFCJa&_nc_zt=23&_nc_ht=scontent.fmnl8-7.fna&_nc_gid=n0DfRsip0snJpuXDdIviQw&_nc_ss=7b3a8&oh=00_AQSfTMVTuj3S-sV7eyOw9cyQA0tsOXWBZuWU948B2mfFsw&oe=6B0DD536" alt="Si  Lhex" class="avatar">
+        <div>
+          <p>I'm Lhexter P. Villamor from the Philippines and an aspiring web and software developer.</p>
+          <p>A college student with current goal of grauduating to get my degree.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Educational background</h2>
+      <ol class="timeline">
+        <li>
+          <span class="year">2025 – Present</span>
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p>Pamantasan Lungson ng Maynila</p>
+        </li>
+        <li>
+          <span class="year">2023 - 2025</span>
+          <h3>Senior High School / STEM</h3>
+          <p>St. Anthony School</p>
+        </li>
+	<li>
+          <span class="year">2019 - 2023</span>
+          <h3>Junior High School</h3>
+          <p>St. Anthony School</p>
+        </li>
+	<li>
+          <span class="year">2011 - 2019</span>
+          <h3>Grade School</h3>
+          <p>Apolinario Mabini Elementary School</p>
+        </li>
+
+      </ol>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <!-- Hover (or tap / Tab to) a card to see its details. Edit the text inside .tooltip -->
+      <div class="skills">
+        <article class="skill" tabindex="0">
+          <h3>Quick to adapt</h3>
+          <p>Adaptable</p>
+          <span class="tooltip" role="tooltip">I'm quick to adapt to set situations.</span>
+        </article>
+        <article class="skill" tabindex="0">
+          <h3>Works well with people</h3>
+          <p>Collaborative</p>
+          <span class="tooltip" role="tooltip">I work well in a team environment.</span>
+        </article>
+        <article class="skill" tabindex="0">
+          <h3>Tech Literate</h3>
+          <p>Knowledgable</p>
+          <span class="tooltip" role="tooltip">Trained in multiple langauges (C++,Python,Java,HTML,CSS,JS), with background in robotics.</span>
+        </article>
+	<article class="skill" tabindex="0">
+          <h3>Quick to Respond</h3>
+          <p>Fast</p>
+          <span class="tooltip" role="tooltip">Trained to respond to emergencies quickly by providing BLS, with background in a Response team.</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <div class="hobbies">
+        <article>
+          <h3><a href="games.html" class="hobby-link">Gaming</a></h3>
+          <p>Mostly soulselikes, but dable in puzzle games.</p>
+        </article>
+        <article>
+          <h3>Listening to Musiz</h3>
+          <p>Any genre under the sun aslong as I enjoy it.</p>
+        </article>
+        <article>
+          <h3>Leaning new things</h3>
+          <p>Life's finite,  might as well make it worthwhile.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p class="contact-lead">Find me on these platforms. Click a logo to visit my profile.</p>
+
+      <!-- The social buttons are generated from the list at the top of script.js.
+           Edit that list to change, remove or add platforms. -->
+      <div class="socials" id="socials"></div>
+
+      <ul class="contact-info">
+        <li><strong>Email</strong> <a href="mailto:lhexter.villamor@gmail.com">lhexter.villamor@gmail.com</a></li>
+        <li><strong>Phone</strong> +63 906 268 5089</li>
+	<li><strong>Username</strong> Melonade</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Lhexter Villamor</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
